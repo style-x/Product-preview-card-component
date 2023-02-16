@@ -99,27 +99,27 @@ main {
   font-weight: 700;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 620px) {
 
   main {
-    max-width: 40rem;
+    max-width: 38rem;
     flex-direction: row;
   }
 
   .image {
-    width: 20rem;
+    width: 19rem;
   }
 
   .image img {
-    height: auto;
+    height: 100%;
     border-top-right-radius: 0;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
   }
 
   .text {
-    width: 20rem;
-    padding: 2rem;
+    width: 19rem;
+    padding: 2.2rem;
   }
 
   .toptext, .article, .description, .price {

@@ -3,6 +3,7 @@
 
 :root {
   --clr-prime-darkcyan: hsl(158, 36%, 37%);
+  --clr-prime-btn-hover: #1a4031;
   --clr-prime-cream: hsl(30, 38%, 92%);
   --clr-darkblue: hsl(212, 21%, 14%);
   --clr-grayblue: hsl(228, 12%, 48%);
@@ -98,6 +99,10 @@ main {
   color: var(--clr-white);
   font-weight: 700;
 }
+.add2card:hover {
+background-color: var(--clr-prime-btn-hover);
+}
+
 
 @media screen and (min-width: 620px) {
 
